@@ -1,9 +1,9 @@
-#Sayaç Projesi
+# Sayaç Projesi
 
 Basit ve kullanışlı bir sayaç uygulaması.  
 HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
 
-##Özellikler
+## Özellikler
 
 - Artırma ( + ) butonu
 - Azaltma ( − ) butonu
@@ -11,10 +11,10 @@ HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
 - Gerçek zamanlı değer güncelleme
 - Mobil uyumlu arayüz
 
-##Kullanılan Teknolojiler
+## Kullanılan Teknolojiler
 
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
   
-##Canlı Site:https://aslisenamercimek.github.io/sayac-uygulamasi/
+## Canlı Site:https://aslisenamercimek.github.io/sayac-uygulamasi/
