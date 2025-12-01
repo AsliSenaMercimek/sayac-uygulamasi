@@ -16,3 +16,5 @@ HTML, CSS ve JavaScript kullanılarak geliştirilmiştir.
 - HTML5
 - CSS3
 - JavaScript (Vanilla JS)
+  
+##Canlı Site:https://aslisenamercimek.github.io/sayac-uygulamasi/
