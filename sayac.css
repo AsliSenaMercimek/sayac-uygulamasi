@@ -1,0 +1,93 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f4f8;
+    transition: background-color 0.4s ease, color 0.4s ease;
+}
+
+.container {
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.counter {
+    font-size: 4em;
+    font-weight: bold;
+    margin-bottom: 30px;
+    transition: transform 0.2s ease;
+}
+
+.counter.animate {
+    transform: scale(1.4);
+}
+
+button {
+    padding: 12px 24px;
+    font-size: 1em;
+    margin: 8px;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #007bff;
+    color: white;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+.clicks {
+    font-size: 1.2em;
+    margin-top: 15px;
+    color: #555;
+}
+
+#themeBtn {
+    margin-top: 25px;
+    padding: 14px 28px;
+    font-weight: bold;
+    background-color: #6c757d;
+}
+
+/* KOYU MOD */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+body.dark-mode .container {
+    background-color: #1e1e1e;
+    border-color: #444;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+body.dark-mode button {
+    background-color: #410610;
+    color: #fff;
+}
+
+body.dark-mode button:hover {
+    background-color: #05361f;
+}
+
+body.dark-mode .clicks {
+    color: #bbb;
+}
+
+body.dark-mode #themeBtn {
+    background-color: #495057;
+}
+
+body.dark-mode #themeBtn:hover {
+    background-color: #6c757d;
+}
